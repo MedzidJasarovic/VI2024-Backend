@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-your-secret-key-here'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['ai-games-ip5t.onrender.com', '127.0.0.1']
+ALLOWED_HOSTS = ['medzaspuzzle.onrender.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
