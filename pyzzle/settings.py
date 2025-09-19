@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-your-secret-key-here'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['medzaspuzzle.onrender.com', '127.0.0.1']
+ALLOWED_HOSTS = ['vi2024-backend.onrender.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -86,6 +86,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    'https://ai-games-front.onrender.com',
+    'https://medzaspuzzle.onrender.com',
 	'http://localhost:5173'
 ]
